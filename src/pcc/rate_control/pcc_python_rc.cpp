@@ -56,7 +56,7 @@ PccPythonRateController::PccPythonRateController(double call_freq,
         char python_path_cmd_buf[python_path_arg_len + 50];
         sprintf(&python_path_cmd_buf[0], "sys.path.append(\"%s\")", python_path_arg);
         PyRun_SimpleString(&python_path_cmd_buf[0]);
-        //std::cerr << "Adding python path: " << python_path_arg << std::endl;
+        std::cerr << "Adding python path: " << python_path_arg << std::endl;
     }
 
     const char* python_filename = "pcc_rate_controller";

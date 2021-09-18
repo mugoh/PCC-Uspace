@@ -1,0 +1,11 @@
+{
+"log version":"njay-1",
+"Experiment Parameters":{
+  "PCC Args":"./app/pccserver recv 9000 "
+},
+"Events":[
+]}
+te-control=python -pyhelper=loaded_client -pypath=../../PCC-RL/src/udt-plugins/testing/ --history-len=10 --pcc-utility-calc=linear --model-path=../../PCC-RL/icml_paper_model "
+},
+"Events":[
+]}
